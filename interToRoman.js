@@ -68,5 +68,3 @@ let interToRoman = (n) => {
   }
   return roman;
 };
-
-console.log(interToRoman(3999));
