@@ -1,15 +1,8 @@
 /*
-Symbol       Value
-I             1
-V             5
-X             10
-L             50
-C             100
-D             500
-M             1000
+Limited to 3999-1
 */
 
-let interToRoman = (n) => {
+let integToRoman = (n) => {
   let roman = "";
   while (n >= 1000) {
     roman += "M";
